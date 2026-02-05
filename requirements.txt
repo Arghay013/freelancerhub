@@ -5,3 +5,5 @@ drf-spectacular>=0.29,<1.0
 django-filter>=24.3,<25.0
 python-dotenv>=1.2,<2.0
 gunicorn>=22.0,<23.0
+psycopg2-binary
+dj-database-url

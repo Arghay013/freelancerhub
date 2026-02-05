@@ -1,0 +1,152 @@
+[
+  {
+    "model": "services.service",
+    "pk": 1,
+    "fields": {
+      "seller": 1,
+      "title": "Logo Design",
+      "description": "Professional logo design service",
+      "price": "50.00",
+      "category": "graphic_design",
+      "delivery_time_days": 3,
+      "requirements": "Brand name and colors",
+      "is_active": true,
+      "created_at": "2024-01-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 2,
+    "fields": {
+      "seller": 1,
+      "title": "Business Card Design",
+      "description": "Modern business card design",
+      "price": "30.00",
+      "category": "graphic_design",
+      "delivery_time_days": 2,
+      "requirements": "Logo and contact info",
+      "is_active": true,
+      "created_at": "2024-01-02T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 3,
+    "fields": {
+      "seller": 1,
+      "title": "Content Writing",
+      "description": "SEO friendly article writing",
+      "price": "40.00",
+      "category": "writing",
+      "delivery_time_days": 4,
+      "requirements": "Topic and keywords",
+      "is_active": true,
+      "created_at": "2024-01-03T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 4,
+    "fields": {
+      "seller": 1,
+      "title": "Blog Writing",
+      "description": "Professional blog posts",
+      "price": "45.00",
+      "category": "writing",
+      "delivery_time_days": 5,
+      "requirements": "Blog topic",
+      "is_active": true,
+      "created_at": "2024-01-04T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 5,
+    "fields": {
+      "seller": 1,
+      "title": "Django REST API",
+      "description": "Backend API development",
+      "price": "120.00",
+      "category": "programming",
+      "delivery_time_days": 7,
+      "requirements": "Project requirements",
+      "is_active": true,
+      "created_at": "2024-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 6,
+    "fields": {
+      "seller": 1,
+      "title": "Website Backend",
+      "description": "Backend with Django",
+      "price": "150.00",
+      "category": "programming",
+      "delivery_time_days": 10,
+      "requirements": "Feature list",
+      "is_active": true,
+      "created_at": "2024-01-06T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 7,
+    "fields": {
+      "seller": 1,
+      "title": "Social Media Marketing",
+      "description": "Facebook and Instagram marketing",
+      "price": "60.00",
+      "category": "marketing",
+      "delivery_time_days": 5,
+      "requirements": "Page access",
+      "is_active": true,
+      "created_at": "2024-01-07T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 8,
+    "fields": {
+      "seller": 1,
+      "title": "SEO Optimization",
+      "description": "On-page SEO service",
+      "price": "80.00",
+      "category": "marketing",
+      "delivery_time_days": 6,
+      "requirements": "Website URL",
+      "is_active": true,
+      "created_at": "2024-01-08T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 9,
+    "fields": {
+      "seller": 1,
+      "title": "Data Entry",
+      "description": "Accurate data entry work",
+      "price": "25.00",
+      "category": "other",
+      "delivery_time_days": 2,
+      "requirements": "Data source",
+      "is_active": true,
+      "created_at": "2024-01-09T10:00:00Z"
+    }
+  },
+  {
+    "model": "services.service",
+    "pk": 10,
+    "fields": {
+      "seller": 1,
+      "title": "Virtual Assistant",
+      "description": "Admin support tasks",
+      "price": "70.00",
+      "category": "other",
+      "delivery_time_days": 5,
+      "requirements": "Task details",
+      "is_active": true,
+      "created_at": "2024-01-10T10:00:00Z"
+    }
+  }
+]
