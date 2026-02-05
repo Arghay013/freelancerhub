@@ -10,7 +10,11 @@ load_dotenv(BASE_DIR / ".env")
 
 SECRET_KEY = os.getenv("SECRET_KEY", "unsafe-dev-secret")
 DEBUG = os.getenv("DEBUG", "1") == "1"
-ALLOWED_HOSTS = [h.strip() for h in os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",") if h.strip()]
+ALLOWED_HOSTS = [h.strip() for h in os.getenv(
+    "ALLOWED_HOSTS",
+    ".vercel.app,127.0.0.1,localhost"
+).split(",") if h.strip()]
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -93,7 +97,9 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 USE_TZ = True
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "accounts.User"
